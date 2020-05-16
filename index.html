@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Simples Editor de Bordas</title>
+</head>
+<body>
+    <h1>Simples editor de bordas</h1>
+    <div id="box"></div>
+    <form oninput="changeValues()">
+        <input type="range" min='0' max="100" value="0">  
+        <input type="range" min='0' max="100" value="0">  
+        <input type="range" min='0' max="100" value="0">  
+        <input type="range" min='0' max="100" value="0">       
+    </form>
+
+    <input type="text">
+
+    <button onclick="copyCSS()">Copiar CSS</button>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
